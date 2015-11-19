@@ -1,0 +1,10 @@
+name              "dbus"
+maintainer        "Tim Heighes"
+maintainer_email  "tim@onegiantleap.se"
+license           "The Unlicense"
+description       "Install dbus packages"
+version           "0.1.0"
+supports          "ubuntu"
+
+recipe "default", "Install dbus package"
+recipe "x11",     "Install dbus-x11 package"
